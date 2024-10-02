@@ -14,9 +14,9 @@ window.show()
 
 """标签的创建"""
 label = QLabel()
-label.setText("你好，python老爷")  # 设置标签内容
+label.setText("你好，python")  # 设置标签内容
 label.move(20, 30)  # 设置标签位置
-label.resize(30, 30)  # 设置标签大小
+label.resize(200, 70)  # 设置标签大小
 label.setStyleSheet("background-color:blue;padding:10px")
 label.setParent(window)  # 设置标签的父控件为窗体
 label.show()
